@@ -1,0 +1,40 @@
+I1213 18:12:21.286796   32978 load.go:37] Reloading schema and connectors...
+I1213 18:12:21.298510   32978 control.go:45] [engine.Service /emulator/A1 dca9] UpdateSchema(): done sources: schema/schema.gql [1384B] 
+I1213 18:12:21.306356   32978 control.go:73] [engine.Service /emulator/A1 dca9] UpdateConnector(default): done sources: connector/mutations.gql [1163B] connector/queries.gql [1855B] 
+I1213 18:12:21.320439   32978 collector.go:107] schema extensions wrote into "/Users/jordan/Documents/COP4780/A1/dataconnect/.dataconnect/schema"
+Generated sources: prelude.gql [65151B] 
+I1213 18:12:21.320597   32978 load.go:115] Finished reloading
+I1213 18:12:21.323340   32978 dev.go:95] Listening on address (HTTP + gRPC): 127.0.0.1:9399
+I1213 18:12:21.324702   32978 dev.go:95] Listening on address (HTTP + gRPC): [::1]:9399
+I1213 18:12:24.353899   32978 control.go:45] [engine.Service /emulator/A1 3f22] UpdateSchema(): done sources: schema/schema.gql [1384B] 
+I1213 18:12:24.354144   32978 control.go:73] [engine.Service /emulator/A1 3f22] UpdateConnector(default): done sources: connector/mutations.gql [1163B] connector/queries.gql [1855B] 
+I1213 18:15:21.324221   32978 load.go:37] Reloading schema and connectors...
+I1213 18:15:21.341402   32978 codegen.go:82] [connector "default" javascriptSdk] Generating sources into "/Users/jordan/Documents/COP4780/dataconnect-generated/js/default-connector"
+I1213 18:15:21.346604   32978 collector.go:107] schema extensions wrote into "/Users/jordan/Documents/COP4780/A1/dataconnect/.dataconnect/schema"
+Generated sources: prelude.gql [65151B] 
+I1213 18:15:21.347958   32978 collector.go:107] connector "default" javascriptSdk wrote into "/Users/jordan/Documents/COP4780/dataconnect-generated/js/default-connector"
+Generated sources: index.d.ts [264B] esm/index.esm.js [175B] esm/package.json [17B] index.cjs.js [216B] package.json [634B] 
+I1213 18:15:21.348465   32978 installsdk.go:33] Unable to find package.json. Skipping automatic installation of @firebasegen/default-connector
+I1213 18:15:21.348685   32978 load.go:115] Finished reloading
+E1213 18:18:13.184135   32978 load.go:23] Could not load config from "/Users/jordan/Documents/COP4780/A1/dataconnect": could not unmarshal connector.yaml at `/Users/jordan/Documents/COP4780/A1/dataconnect/connector/connector.yaml`: yaml: line 9: could not find expected ':'
+E1213 18:18:14.792438   32978 load.go:23] Could not load config from "/Users/jordan/Documents/COP4780/A1/dataconnect": could not unmarshal connector.yaml at `/Users/jordan/Documents/COP4780/A1/dataconnect/connector/connector.yaml`: yaml: line 9: could not find expected ':'
+I1213 18:20:12.725792   32978 load.go:37] Reloading schema and connectors...
+E1213 18:20:12.736220   32978 load.go:79] Could not load sources: <nil>
+I1213 18:20:12.737612   32978 collector.go:107] schema extensions wrote into "/Users/jordan/Documents/COP4780/A1/dataconnect/.dataconnect/schema"
+Generated sources: prelude.gql [65151B] 
+I1213 18:20:12.737963   32978 load.go:80] Finished reloading
+I1213 18:20:25.065702   32978 load.go:37] Reloading schema and connectors...
+E1213 18:20:25.067979   32978 load.go:79] Could not load sources: <nil>
+I1213 18:20:25.068438   32978 collector.go:107] schema extensions wrote into "/Users/jordan/Documents/COP4780/A1/dataconnect/.dataconnect/schema"
+Generated sources: prelude.gql [65151B] 
+I1213 18:20:25.068501   32978 load.go:80] Finished reloading
+I1213 18:20:35.757441   32978 load.go:37] Reloading schema and connectors...
+E1213 18:20:35.762706   32978 load.go:79] Could not load sources: <nil>
+I1213 18:20:35.763456   32978 collector.go:107] schema extensions wrote into "/Users/jordan/Documents/COP4780/A1/dataconnect/.dataconnect/schema"
+Generated sources: prelude.gql [65151B] 
+I1213 18:20:35.763632   32978 load.go:80] Finished reloading
+I1213 18:22:31.316340   32978 load.go:37] Reloading schema and connectors...
+E1213 18:22:31.324349   32978 load.go:79] Could not load sources: <nil>
+I1213 18:22:31.325684   32978 collector.go:107] schema extensions wrote into "/Users/jordan/Documents/COP4780/A1/dataconnect/.dataconnect/schema"
+Generated sources: prelude.gql [65151B] 
+I1213 18:22:31.325758   32978 load.go:80] Finished reloading
